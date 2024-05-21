@@ -1,0 +1,130 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-family: 'Lobster Two',sans-serif;
+    font-size: 60px;
+    color: black;
+    margin-left: 300px;
+}
+span{
+    color: #EB0029;
+}
+.out{
+    inline-size: auto;
+    margin-left: 90%;
+  }
+  .bt{
+    background-color: #EB0029;
+    width: 120px;
+    height: 49px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.up{
+    display: flex;
+    justify-content:space-between ;
+    
+    
+    margin-bottom: 3%;
+    
+}
+.first{
+    margin-top: 5%;
+    height: 200px;
+    width: 410px;
+    background-color: #b4a6a6;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+.f3{
+    margin-top: 5%;
+    height: 200px;
+    width: 410px;
+    background-color: #b4a6a6;
+    border-radius: 30px;
+    margin-left: 20px; /* Adjust this value as needed */
+}
+.pic_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic1{
+    padding-top: 10px;
+    margin-right: 2px;
+}
+.p1 p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 9px;
+}
+.btn{
+    background-color: #EB0029;
+    width: 120px;
+    height: 49px;
+    color: white;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #EB0029;
+    width: 120px;
+    height: 49px;
+    color: white;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.pic2{
+    height: 200px;
+    width: 150px;
+    margin-top: 1px;
+    
+
+}
+.btn2{
+    background-color: #EB0029;
+    width: 120px;
+    height: 49px;
+    color: white;
+    border-radius: 50px;
+    margin-left: 150px;
+    
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    align-items: center;
+    padding: auto;
+    margin-right: 500px;
+}
+.p2 p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 6%;
+    
+}
+.coppyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #EB0029;
+    font-weight: 300;
+    margin-top: 150px;
+    
+}
+.coppyright span{
+    color: #ffffff;
+    font-weight: bold;
+}

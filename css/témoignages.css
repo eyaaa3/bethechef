@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-color:#dcdcde;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ggg {
+	padding-top:1px;
+   /* background-color: #f9f9f9;*/
+    padding: 32px 0;
+}
+
+.bbb {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.test {
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.test:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    margin-top:2px;
+	font-family:'Georgia';
+    color: #fff; 
+    background-color:#d63638; 
+    padding: 6px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+p {
+    line-height: 1.9;
+    color: #4a3200; 
+}
+
+.author {
+    font-style: italic;
+    color: #614200; 
+}

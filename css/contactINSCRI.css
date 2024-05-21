@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;/*Supprime les marges par défaut du corps*/
+    padding: 0; /*Supprime les espaces internes par défaut du corps*/
+    background-color: #f9f9f9; /* gris très claire*/
+}
+
+.aaa {
+    max-width: 700px;
+    margin: 30px auto;/* Ajoute une marge de 30 pixels en haut et en bas, et "auto" horizontalement, centrée par rapport à son conteneur parent*/
+    padding: 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: black;
+    background-color: #dcdcdc; 
+    font-family: Georgia;
+    padding: 7px; /*Ajoute un espacement interne de 7 pixels autour du texte.*/
+    text-align: center;
+    border-radius: 5px;
+}
+
+form {
+    display: grid; /* Utilise une disposition en grille pour organiser les éléments du formulaire.*/
+    gap: 12px; /*espacement entre les éléments du formulaire à 12 pixels*/
+}
+
+label {
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px; /*Ajoute un espacement interne de 10 pixels autour de ces éléments*/
+    box-sizing: border-box;/* Fait en sorte que la largeur et la hauteur incluent le remplissage et la bordure, pas seulement le contenu*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.aaa-bbb {
+    display: flex;
+    justify-content: space-between;/*Répartit l'espace disponible entre les éléments, les espaçant uniformément avec un espace entre eux*/
+}
+
+button {
+    font-size: 14px;
+    background-color: #808080; 
+    color: #fff;
+    padding: 10px 20px; /*Ajoute un espacement interne de 10 pixels en haut et en bas, et de 20 pixels à gauche et à droite*/
+    border: none; /* Supprime la bordure par défaut du bouton*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black; 
+}

@@ -1,0 +1,205 @@
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+.navbar .element{
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 400;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: "Poppins";
+    margin-top: 7px;
+    
+    font-weight: bold;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(95, 95, 95);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    font-weight: bold;
+    
+    
+  }
+  .navbar a:hover{
+    color: #EB0029;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+   
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: rgb(95, 95, 95);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    box-shadow: 0 0 0.1 #EB0029;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .login{
+    background-color: #EB0029;
+    width: 120px;
+    height: 49px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+
+
+.coppyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #EB0029;
+    font-weight: 300;
+    margin-top: 20px;
+    
+}
+.coppyright span{
+    color: #ffffff;
+    font-weight: bold;
+}
+.form{
+  width: 600px;
+  height: auto;
+  background-color: #e0d8dc;
+  border-radius: 30px;
+  margin-top: 2%;
+  margin-left: 27%;
+  text-align: center;
+
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 80px;
+
+}
+
+
+
+
+
+
+
+.form form{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+.form form h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+.form  form input{
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form  form .form-btn{
+  background: #fbd0d9;
+  color: crimson;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form  form .form-btn:hover{
+  background: crimson;
+  color: #fff;
+}
+.form  form p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+.form  form p a{
+  color: crimson;
+}
+
+.form form .error-msg{
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}

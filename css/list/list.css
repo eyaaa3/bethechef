@@ -1,0 +1,45 @@
+/* Style for user info section */
+.user-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.user-info .label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.user-link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Style for action links */
+.action-links a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.update-link {
+    color: green;
+}
+
+.delete-link {
+    color: red;
+}
+
+/* Style for add link */
+.add-link {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}

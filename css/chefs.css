@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    font-family: 'Arial', sans-serif; /*police*/
+    margin: 0; /*supprime également les marges et les espacements par défaut du corps de la page.*/
+    padding: 0;
+}
+
+.chef-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff; 
+    padding: 2px 0;
+}
+/*les éléments ayant cette classe auront un affichage flex, aligneront leur contenu de 
+manière égale autour de l'espace disponible, centrera verticalement leur contenu, auront une couleur de fond blanche (#fff), et auront un rembourrage de 40 pixels en haut et en bas.*/
+.chef {
+    text-align: center;
+	height:450px;
+    width: 410px;
+    margin: 0 30px; /*une marge de 0 en haut et en bas et de 30 pixels à gauche et à droite*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;  /*un effet de transition sur la transformation avec une durée de 0.3 seconde.*/
+}
+
+.chef img {
+	margin:2px;
+    width: 85%;
+    height:68%;
+    border-radius: 10px 10px 0 0;
+}
+
+.chef h2 {
+	font-family:'Pacifico';
+    margin: 1px 0 10px; /*une marge de 2 pixels en haut, de 0 à gauche et à droite 10 pixels en bas*/
+    color: #333;  /*gris foncé*/
+}
+
+.chef p {
+	line-height:0.2; /*hauteur de ligne à 0.2*/
+	font-size:18px;
+    color: black; /*gris moyen*/
+}
+
+.chef:hover {
+    transform: scale(1.05); /*lorsque vous survolez un élément avec la classe .chef, il effectuera une transformation d'agrandissement à 105% de sa taille initiale*/
+}
+.titre{
+    color: #135e96; /* Couleur rouge attrayante */
+    font-family: 'Arial';
+    font-size: 26px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Centrage du texte */
+    margin-top: 20px; /* Marge vers le haut pour l'espace */
+}
+.coppyright{
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    background:#dcdcde;
+    font-weight: 300;
+    margin-top: 3px;
+	
+}
+.coppyright span{
+    color: #ffffff;
+    font-weight: bold;
+}

@@ -1,0 +1,83 @@
+/* Réinitialisation des styles de base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Changement de police */
+    background-color: #f5f5f5; /* Couleur de fond légère */
+    color: #333; /* Couleur principale du texte */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    margin: 0;
+    font-size: 36px; /* Taille de police agrandie */
+    font-weight: 700; /* Épaisseur de la police */
+    color: #fff; /* Couleur du titre */
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.job {
+    height:440px;
+	width:370px;
+    background-color: #fff;
+    border-radius: 12px; /* Bordure arrondie plus prononcée */
+    padding: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée */
+    transition: transform 0.3s ease;
+}
+
+.job:hover {
+    transform: translateY(-8px); /* Effet de survol plus prononcé */
+}
+
+.job h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 600; /* Épaisseur de la police */
+    color: #EB0029; /* Couleur du titre de l'offre */
+}
+
+.job p {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.apply-btn {
+    display: inline-block;
+    padding: 12px 20px; /* Agrandissement du bouton */
+	margin-left:110px;
+    background-color: #EB0029;
+    color:white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+    background-color: black; /* Couleur de survol du bouton */
+}
+/* Styles pour les éléments spécifiques des offres d'emploi */
+.job .job-label {
+    font-size:20px;
+    font-family: 'Lobster Two';
+    color: #043959;
+}
+
+.job .job-location {
+    font-style: italic; /* Italique pour le lieu */
+    color: black; /* Couleur sombre pour le lieu */
+}
